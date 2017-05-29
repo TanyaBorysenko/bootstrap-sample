@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot");
+    src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff") format("woff"),
+    url("../fonts/icomoon/icomoon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 300;
+    color: #868f90;
+
+    /*-webkit-tap-highlight-color: transparent; стосується моб девайсів,
+    при тапі на лін появляється бек граунд і при відпущенні він зникає. ця поведінка
+    є дефолтною і щоб цю підсвітку забрати потрібне це правило*/
+}
+h1, h2, h3{
+    font-family: "Roboto Slab", arial, sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 18px;
+}
+.col-md-1 div{
+    border-radius: 0;
+    background-color: #e32929;
+    color: white;
+    padding:25px;
+    font-size: 20px;
+    font-family: "Roboto Slab", arial, sans-serif;
+    letter-spacing: 2px;
+    width: 125px;
+}
+.list-inline{
+    text-align: right;
+    padding-top: 30px;
+}
+
+.list-inline li{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.center-block{
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    font-family: "Roboto Slab", arial, sans-serif;
+    padding: 10% 0;
+}
+.list-inline li a:hover, .list-inline li a.active{
+    color: #e32929;
+}
+.list-inline a, .list-inline a:focus, .list-inline a:active, .list-inline a:visited, .list-inline a:hover {
+    text-decoration: none;
+}
+.list-inline a{
+    color: #ccc;
+}
+.second-color-bg {
+    background-color: #fafafa;
+}
+.main_col{
+    padding: 2% 0;
+}
+.main_col .container{
+    letter-spacing: 1px;
+}
+.container p, .main_col p{
+    font-size: 20px;
+    margin: 5% 0;
+    line-height: 36px;
+}
+.padding{
+    padding: 5%;
+}
+.container{
+    padding: 0;
+}
+.btn{
+    background: #e32929;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.inline-img div{
+    display: inline-block;
+    vertical-align: top;
+   }
+.inline-img .col-md-2 h3:after {
+    content: "";
+    display: block;
+    background-color: #e32929;
+    width:35px;
+    height: 2px;
+    margin: 10% 0;
+}
+.padding-bottom{
+    padding-bottom: 5%;
+}
+.inline-img p{
+    font-size: 15px;
+    line-height: 28px;
+}
+.fa, .icon-present {
+    font-size: 20px !important;
+    color: #ccc;
+}
+i{
+    width: 25px;
+    line-height:36px;
+}
+.columns p, .container p{
+    font-size: 15px;
+    line-height: 26px;
+}
+.col-md-2{
+    position: relative;
+}
+.columns i{
+    position: absolute;
+    left: -20%;
+    top: 10%;
+    font-size: 40px;
+    color: #e32929;
+}
+
+footer div{
+    margin: 6% 0;
+}
+footer a:link{
+    color: #e32929;
+}
+footer p{
+    font-size: 15px ;
+}
+/*left and right sidebar*/
+.list-check{
+    padding: 10px 0;
+}
+.list-check li:before{
+    content: "\e042";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: #ccc;
+}
+.list-check li {
+    padding-left: 25px !important;
+    position: relative;
+    display: block;
+    margin-bottom: 10px !important;
+    line-height: 20px;
+}
+
+.container p, .list-check{
+    margin: 1% 0;
+    letter-spacing: 0;
+}
+.col-md-3{
+    padding: 0 30px;
+}
+.main-color-bg{
+    background-color: #ffffff !important;
+}
