@@ -12,6 +12,7 @@ body {
     font-family: "Roboto", arial, sans-serif;
     font-weight: 300;
     color: #868f90;
+    display: none;
 
     /*-webkit-tap-highlight-color: transparent; стосується моб девайсів,
     при тапі на лін появляється бек граунд і при відпущенні він зникає. ця поведінка
