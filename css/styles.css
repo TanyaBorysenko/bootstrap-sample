@@ -91,10 +91,11 @@ h3{
     color: #fff;
     letter-spacing: 2px;
 }
+
 .inline-img div{
     display: inline-block;
     vertical-align: top;
-   }
+}
 .inline-img .col-md-2 h3:after {
     content: "";
     display: block;
@@ -110,9 +111,10 @@ h3{
     font-size: 15px;
     line-height: 28px;
 }
-.fa, .icon-present {
+.fa{
     font-size: 20px !important;
     color: #ccc;
+    padding: 10% 0;
 }
 i{
     width: 25px;
