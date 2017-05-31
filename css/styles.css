@@ -28,7 +28,7 @@ h2{
 h3{
     font-size: 18px;
 }
-.col-md-1 div{
+.logo{
     border-radius: 0;
     background-color: #e32929;
     color: white;
@@ -150,7 +150,7 @@ footer p{
 }
 .list-check li:before{
     content: "\e042";
-    font-family: 'icomoon';
+    font-family: 'icomoon', serif;
     position: absolute;
     top: 0;
     left: 0;
@@ -174,4 +174,11 @@ footer p{
 }
 .main-color-bg{
     background-color: #ffffff !important;
+}
+
+@media screen  and (max-width: 320px){
+    .inline-img div {
+        padding-left: 8%;
+    }
+
 }
