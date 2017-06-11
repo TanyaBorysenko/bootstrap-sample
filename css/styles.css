@@ -175,6 +175,11 @@ footer p{
 .main-color-bg{
     background-color: #ffffff !important;
 }
+@media screen  and (max-width: 1020px){
+    .row{
+        margin: 0;
+    }
+}
 
 @media screen  and (max-width: 320px){
     .inline-img div {
