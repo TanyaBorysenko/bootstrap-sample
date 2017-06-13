@@ -84,11 +84,11 @@ h3{
 .container{
     padding: 0;
 }
-.btn{
+.btn, .btn.focus, .btn:focus, .btn:hover{
     background: #e32929;
     margin-bottom: 20px;
     padding: 15px 10px;
-    color: #fff;
+    color: #fff !important;
     letter-spacing: 2px;
 }
 
