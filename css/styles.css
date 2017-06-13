@@ -176,6 +176,9 @@ footer p{
     background-color: #ffffff !important;
 }
 
+.btn.focus, .btn:focus, .btn:hover{
+
+}
 @media screen  and (max-width: 320px){
     .inline-img div {
         padding-left: 8%;
